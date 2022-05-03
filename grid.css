@@ -93,6 +93,25 @@ body {
 .item__btn {
     width: 60%;
     height: auto;
+    background: rgb(45,173,178);
+    background: linear-gradient(0deg, rgba(45,173,178,1) 0%, rgba(70,245,238,1) 100%);    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px 0;
+}
+
+.item__btn:hover{
+    transform: scale(1.2);
+    background-color: #fbf7ce;
+    color: #480e0e;
+
+}
+
+
+
+.item__btn {
+    width: 60%;
+    height: auto;
     background-color: #7fffd4;
     text-align: center;
     margin: auto;
@@ -148,6 +167,11 @@ body {
 
 .nav-item {
     color: #ffe4c4;
+}
+
+.nav-item:hover{
+    transform: scale(1.2);
+
 }
 
 .nav-item a {
